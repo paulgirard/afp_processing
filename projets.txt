@@ -1,0 +1,23 @@
+
+
+- cartographie des intérêts de l'actualité AFP 2007
+  représenter un point par lieu cité dont la taille est proportionnelle au nombre de news
+  animer la carte pour représenter chaque jour les uns après les autres
+
+  données :
+  - table : ville,pays,nb,date
+  - geonames webservices
+  - fond de carte wikipedia
+  - code processing zoom-drag/drop
+
+
+- les thèmes de l'actualité 2007
+  
+  représenter les mots clefs les plus présents dans l'actualité 2007
+  filtrer suivant un sujet particulier
+  représenter les mots clefs par graphe de cooccurrences
+  animer le graphe jour après jour
+
+  données :
+  - tables : topicINnews et cooccurrence
+  - code processing de graphe
